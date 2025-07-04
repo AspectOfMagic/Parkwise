@@ -1,0 +1,35 @@
+services:
+  app:
+    container_name: parkwise-app
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: docker/frontend/Dockerfile
+    depends_on:
+      - postgres
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+      - "3002:3002"
+      - "3003:3003"
+      - "3010:3010"
+      - "4000:4000"
+
+  postgres:
+    container_name: database
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: docker/backend/Dockerfile
+    environment:
+      POSTGRES_PORT: ${POSTGRES_PORT}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

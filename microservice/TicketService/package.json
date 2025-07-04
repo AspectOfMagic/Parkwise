@@ -1,0 +1,60 @@
+{
+  "name": "parkwise-ticket-microservice",
+  "version": "1.0.0",
+  "description": "Ticket MicroService",
+  "author": "Tanya Rath <trath@ucsc.edu>",
+  "license": "UNLICENSED",
+  "repository": "none",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@types/express": "*",
+    "@types/jsonwebtoken": "*",
+    "@types/node": "*",
+    "@types/pg": "*",
+    "@types/supertest": "*",
+    "@vitest/coverage-v8": "*",
+    "eslint": "^9.26.0",
+    "eslint-config-typescript": "^3.0.0",
+    "globals": "^8.18.0",
+    "msw": "^2.0.0",
+    "nodemon": "*",
+    "supertest": "*",
+    "ts-node": "*",
+    "ts-postgres": "*",
+    "typescript": "*",
+    "typescript-eslint": "^8.31.1",
+    "unplugin-swc": "^1.5.2",
+    "vite": "^6.3.4",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-ts-decorators": "^1.1.0",
+    "vitest": "^3.1.2"
+  },
+  "dependencies": {
+    "class-validator": "*",
+    "dotenv": "*",
+    "express": "*",
+    "graphql": "*",
+    "graphql-http": "*",
+    "graphql-playground-middleware-express": "*",
+    "jsonwebtoken": "*",
+    "libphonenumber-js": "^1.12.8",
+    "mailgun.js": "^12.0.2",
+    "pg": "*",
+    "reflect-metadata": "*",
+    "type-graphql": "*"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts",
+    "exec": "ts-node src/server.ts"
+  },
+  "scripts": {
+    "start": "node build/server.js",
+    "build": "tsc",
+    "dev": "nodemon",
+    "test": "vitest run --no-file-parallelism --testTimeout=3000 --coverage",
+    "lint": "eslint src/**/*.[jt]s --fix"
+  }
+}

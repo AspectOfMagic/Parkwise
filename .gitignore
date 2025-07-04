@@ -1,0 +1,69 @@
+#Enviroment Variables
+.env
+/microservice/PermitService/.env
+
+# microservice builds
+/microservice/AuthService/build/
+/microservice/PermitService/build/
+/microservice/TicketService/build/
+/microservice/VehicleService/build/
+
+#Node Modules
+node_modules/
+
+# git ignore
+admin/.gitignore
+driver/.gitignore
+enforcement/.gitignore
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+coverage/
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# next
+.next
+
+# sql
+
+# yml
+.yml
+
+#stripe
+.env*.local

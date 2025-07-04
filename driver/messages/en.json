@@ -1,0 +1,70 @@
+{
+  "common": {
+    "english": "English",
+    "chinese": "Chinese"
+  },
+  "app": {
+    "name": "ParkWise"
+  },
+  "home": {
+    "text1": "Hi",
+    "text2": "Current Ticket Balance",
+    "text3": "Contact Information",
+    "text4": "Vehicles",
+    "text5": "Order Permits",
+    "text6": "Pay Ticket"
+  },
+  "footer": {
+    "text1": "Do Not Sell My Personal Information",
+    "text2": "Privacy Policy",
+    "text3": "Terms of Use"
+  },
+  "button": {
+    "signup": "Sign Up",
+    "login": "Log In",
+    "select": "Select Vehicle",
+    "order": "Order Permit",
+    "pay": "Pay"
+  },
+  "placeholder": {
+    "text1": "First Name",
+    "text2": "Last Name",
+    "text3": "Email",
+    "text4": "Password",
+    "text5": "Confirm Password"
+  },
+  "signup": {
+    "title1": "Get Started Now",
+    "title2": "Create an account or log in"
+  },
+  "login": {
+    "title": "Log In To Your Account",
+    "text3": "Or",
+    "text4": "Continue With Google"
+  },
+  "contact": {
+    "email": "Email Address"
+  },
+  "vehicle": {
+    "top1": "Account",
+    "top2": "Vehicles",
+    "text1": "Manage Your Vehicles",
+    "text2": "Register Vehicle"
+  },
+  "permit": {
+    "top1": "Account",
+    "top2": "Order Permit",
+    "top3": "Vehicle",
+    "text1": "Select a Permit to Purchase",
+    "text2": "Vehicle Selection",
+    "text3": "Select Vehicle:"
+  },
+  "ticket": {
+    "top1": "Account",
+    "top2": "Pay Ticket",
+    "text1": "Select Vehicle:",
+    "text2": "Select All Tickets",
+    "text3": "Total Balance:",
+    "text4": "Ticket"
+  }
+}

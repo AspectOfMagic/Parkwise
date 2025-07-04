@@ -1,0 +1,45 @@
+{
+  "name": "enforcement",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack -p 3003",
+    "build": "next build",
+    "start": "next start -p 3003",
+    "test": "vitest run --no-file-parallelism --testTimeout=3000 --coverage",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "@mui/icons-material": "*",
+    "@mui/material": "*",
+    "concurrently": "*",
+    "dotenv": "*",
+    "jose": "*",
+    "next": "*",
+    "pg": "*",
+    "react": "*",
+    "react-dom": "*",
+    "server-only": "*"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "*",
+    "@testing-library/dom": "*",
+    "@testing-library/react": "*",
+    "@testing-library/user-event": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-react": "*",
+    "@vitest/coverage-v8": "*",
+    "eslint": "*",
+    "eslint-config-next": "*",
+    "jsdom": "*",
+    "react-webcam": "*",
+    "tesseract.js": "*",
+    "typescript": "*",
+    "vite-tsconfig-paths": "*",
+    "vitest": "*"
+  }
+}

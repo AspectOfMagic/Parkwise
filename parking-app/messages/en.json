@@ -1,0 +1,28 @@
+{
+    "metadata": {
+      "title": "Campus Parking Police"
+    },
+    "common": {
+      "english": "English",
+      "chinese": "Chinese"
+    },
+    "body": {
+      "title": "ParkWise",
+      "slogan1": "Find",
+      "slogan2": "Your",
+      "slogan3": "Spot.",
+      "button": "Start Parking Smart",
+      "buttonEnf": "Log in as Enforcer"
+    },
+    "footer": {
+      "title": "ParkWise",
+      "line1": "Do Not Sell My Personal Information",
+      "line2": "Privacy Policy",
+      "line3": "Terms of Use"
+    },
+    "enhanced": {
+    "headline": "Park smarter, drive cleaner, save time.",
+    "line1": "ParkWise helps you find parking faster, reduce emissions, and simplify enforcement — all in one clean, easy-to-use platform.",
+    "line2": "Whether you're a commuter, student, or visitor, ParkWise puts the spot in your hands. No circling. No guessing. Just park and go."
+  }
+}
