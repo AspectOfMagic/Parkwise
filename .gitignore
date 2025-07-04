@@ -1,6 +1,8 @@
 #Enviroment Variables
 .env
-/microservice/PermitService/.env
+
+#package-lock.json
+package-lock.json
 
 # microservice builds
 /microservice/AuthService/build/
@@ -59,8 +61,6 @@ next-env.d.ts
 
 # next
 .next
-
-# sql
 
 # yml
 .yml
