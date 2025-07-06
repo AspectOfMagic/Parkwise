@@ -80,7 +80,7 @@ Each portal provides users with the tools and information relevant to their role
 
 - **Frontend:** Next.js, React, Material-UI  
 - **Backend:** Node.js (Express), PostgreSQL  
-- **Authentication & Access Control:** JWT-based sessions, RBAC  
+- **Authentication & Access Control:** JWT-based sessions  
 - **Payments:** Stripe integration  
 
 ---
